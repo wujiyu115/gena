@@ -2,7 +2,7 @@ test:
 	go test -race ./...
 
 build:
-	@GOPROXY=https://goproxy.cn go build ./cmd/server
+	@GOPROXY=https://goproxy.cn go build ./cmd/gena
 	@echo "Now can run server with ./server"
 
 docker_build:
